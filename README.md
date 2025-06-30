@@ -32,8 +32,8 @@ Each thumbnail links to a focused YouTube demo:
 
 ## 📄 Project Documentation
 
-- [🔄 FlourPower ELT Process](./FlourPowerELT.md) – Data cleaning, transformation, and schema modeling
-- [🧮 FlourPower DAX Logic](./FlourPowerDAX.md) – KPI formulas, margin calculations, and time intelligence patterns
+- [🔄 Flour Power ELT Process](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/FlourPowerDAX.md) – Data cleaning, transformation, and schema modeling
+- [🧮 Flour Power DAX Logic](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/FlourPowerDAX.md) – KPI formulas, margin calculations, and time intelligence patterns
 
 ---
 
