@@ -19,13 +19,13 @@ This interactive Power BI report is built for the **retail industry**, using syn
 
 Each thumbnail links to a focused YouTube demo:
 
-[![Staffing Based on Sales ➜](./Assets/PNG-%20StaffingBasedonSalesAnalysisFP.png)](https://youtu.be/NL-BHHzpXQk)  
+[![Staffing Based on Sales ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-%20StaffingBasedonSalesAnalysisFP.png)](https://youtu.be/NL-BHHzpXQk)  
 [📎 _Staffing optimization through daily sales pacing_]
 
-[![Product Analysis ➜](./Assets/PNG-ProductAnalysisFP.png)](https://youtu.be/7vwDhfGsJGM)  
+[![Product Analysis ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-ProductAnalysisFP.png)](https://youtu.be/7vwDhfGsJGM)  
 [📎 _Lost revenue and high-margin item analysis_]
 
-[![Optimizing Business Hours ➜](./Assets/PNG-OptimizeBusinessHoursAnalysisFP.png)](https://youtu.be/H-vI-EoFtyM)  
+[![Optimizing Business Hours ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-OptimizeBusinessHoursAnalysisFP.png)  
 [📎 _Aligning open hours with peak customer traffic_]
 
 ---
