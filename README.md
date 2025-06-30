@@ -17,7 +17,7 @@ This interactive Power BI report is built for the **retail industry**, using syn
 
 ## 🎬 Report Walkthrough Videos
 
-Each thumbnail links to a focused YouTube demo:
+Click on image to watch a walk through video of the report on YouTube:
 
 [![Staffing Based on Sales ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-%20StaffingBasedonSalesAnalysisFP.png)](https://youtu.be/NL-BHHzpXQk)  
 [📎 _Staffing optimization through daily sales pacing_]
