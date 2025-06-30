@@ -25,7 +25,7 @@ Each thumbnail links to a focused YouTube demo:
 [![Product Analysis ➜](./Assets/PNG-ProductAnalysisFP.png)](https://youtu.be/7vwDhfGsJGM)  
 [📎 _Lost revenue and high-margin item analysis_]
 
-[![ptimizing Business Hours ➜](./Assets/PNG-OptimizeBusinessHoursAnalysisFP.png)](https://youtu.be/H-vI-EoFtyM)  
+[![Optimizing Business Hours ➜](./Assets/PNG-OptimizeBusinessHoursAnalysisFP.png)](https://youtu.be/H-vI-EoFtyM)  
 [📎 _Aligning open hours with peak customer traffic_]
 
 ---
