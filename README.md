@@ -31,7 +31,8 @@ Click on the image to watch a walk through video of the report on YouTube:
 ---
 
 ## 📄 Project Documentation
-
+- 📊 [FlowerPowerBakery.pbix](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/FlowerPowerBakery.pbix) – Power BI dashboard  
+- 📈 [AnonamizedBakeryMapped.xlsx](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/AnonamizedBakeryMapped.xlsx) – Source datase
 - [🔄 Flour Power ELT Process](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/FlourPowerELT.md) – Data cleaning, transformation, and schema modeling
 - [🧮 Flour Power DAX Logic](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/FlourPowerDAX.md) – KPI formulas, margin calculations, and time intelligence patterns
 
