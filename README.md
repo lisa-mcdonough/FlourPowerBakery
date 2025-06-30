@@ -32,7 +32,7 @@ Each thumbnail links to a focused YouTube demo:
 
 ## 📄 Project Documentation
 
-- [🔄 FlourPower ELT Process](./FlourPowerELTProcess.md) – Data cleaning, transformation, and schema modeling
+- [🔄 FlourPower ELT Process](./FlourPowerELT.md) – Data cleaning, transformation, and schema modeling
 - [🧮 FlourPower DAX Logic](./FlourPowerDAX.md) – KPI formulas, margin calculations, and time intelligence patterns
 
 ---
