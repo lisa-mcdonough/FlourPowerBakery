@@ -30,9 +30,20 @@ Click on the image to watch a walk through video of the report on YouTube:
 
 ---
 
+### 🧁 *Flour Power – View & Download*
+
+- 🌐 [**View Interactive Report (Power BI Service)**](https://app.powerbi.com/links/TX-ATakVJt?ctid=b8847cd9-049c-4193-9096-958b6037320f&pbi_source=linkShare)  
+  Slice through product sales, staffing patterns, and hourly trends in real time.
+
+- 💾 [**Download .pbix file**](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/FlowerPowerBakery.pbix)  
+  Explore the report architecture, DAX, and layout firsthand.
+
+- 📈 [**Download Dataset (.xlsx)**](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/AnonamizedBakeryMapped.xlsx)
+
+---
+
 ## 📄 Project Documentation
-- 📊 [FlowerPowerBakery.pbix](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/FlowerPowerBakery.pbix) – Power BI dashboard  
-- 📈 [AnonamizedBakeryMapped.xlsx](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/AnonamizedBakeryMapped.xlsx) – Source datase
+
 - [🔄 Flour Power ELT Process](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/FlourPowerELT.md) – Data cleaning, transformation, and schema modeling
 - [🧮 Flour Power DAX Logic](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/FlourPowerDAX.md) – KPI formulas, margin calculations, and time intelligence patterns
 
