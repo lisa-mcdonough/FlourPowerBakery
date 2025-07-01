@@ -32,8 +32,9 @@ Click on the image to watch a walk through video of the report on YouTube:
 
 ### 🧁 *Flour Power – View & Download*
 
-- 🌐 [**View Interactive Report (Power BI Service)**](https://app.powerbi.com/view?r=eyJrIjoiMGViYjE5ZjMtYmFkYS00ZWJjLWJhOWMtZjJlYTQwY2ZlOGYzIiwidCI6ImI4ODQ3Y2Q5LTA0OWMtNDE5My05MDk2LTk1OGI2MDM3MzIwZiIsImMiOjN9)  
-  Slice through product sales, staffing patterns, and hourly trends in real time.
+- 🌐 [**View Interactive Report (Power BI Service)**](https://app.powerbi.com/view?r=eyJrIjoiZGVjMGFiZjgtM2UyNC00Nzc3LTljYWMtYTcyNmRkZWY0ZjdmIiwidCI6ImI4ODQ3Y2Q5LTA0OWMtNDE5My05MDk2LTk1OGI2MDM3MzIwZiIsImMiOjN9
+)  
+  Slice through product sales, staffing patterns, and hourly trends in real time. Web version has page navigation buttons.
 
 - 💾 [**Download .pbix file**](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/FlowerPowerBakery.pbix)  
   Explore the report architecture, DAX, and layout firsthand.
