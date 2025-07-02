@@ -25,7 +25,7 @@ Click on the image to watch a walk through video of the report on YouTube:
 [![Product Analysis ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-ProductAnalysisFP.png)](https://youtu.be/7vwDhfGsJGM)  
 [📎 _Lost revenue and high-margin item analysis_]
 
-[![Optimizing Business Hours ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-OptimizeBusinessHoursAnalysisFP.png)(https://youtu.be/H-vI-EoFtyM)  
+[![Optimizing Business Hours ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-OptimizeBusinessHoursAnalysisFP.png)](https://youtu.be/H-vI-EoFtyM)  
 [📎 _Aligning open hours with peak customer traffic_]          
 
 ---
