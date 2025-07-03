@@ -80,7 +80,7 @@ Filters sales occurring during operating hours.
 SalesByHour =
 CALCULATE (
     [TotalSales],
-    FILTER ( LineItems, [IsWithinOperatingHours] = "Open" )
+    FILTER (LineItems, [IsWithinOperatingHours] = "Open")
 )
 ```
 
@@ -122,7 +122,7 @@ ThreeMonthMovingAvg =
 AVERAGEX(
     DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -3, MONTH),
     [TotalSales]
-)//3-month moving average
+)
 ```
 
 **CumulativeSalesbySeason**
@@ -192,7 +192,7 @@ CALCULATE(
     SUM(Shifts[Elapsed Hours]),
     FILTER(
         RELATEDTABLE(LineItems),
-        LineItems[Item Total] > 0      )
+        LineItems[Item Total] > 0)
 )
 ```
 
@@ -216,7 +216,7 @@ MAX('Date'[Date]),
 RETURN
 CALCULATE(
 SUM(Shifts[Elapsed Hours]),
-//USERELATIONSHIP(Shifts[Clock In Date], 'Date'[Date]), -no longer need relationship is active
+//USERELATIONSHIP(Shifts[Clock In Date], 'Date'[Date]), -No longer needed, relationship is active
 Shifts[Clock In Date] = SelectedDate
 )
 ```
@@ -244,14 +244,15 @@ Number of overlapping shifts per hour.
 
 ```
 ShiftsCount =
-CALCULATE(
-COUNTROWS(Shifts),
-FILTER(
-Shifts,
-(Shifts[Formatted Clock In Hour] <= SELECTEDVALUE('HourTable'[Hour])) &&
-(Shifts[Formatted Clock Out Hour] >= SELECTEDVALUE('HourTable'[Hour]))
+CALCULATE (
+    COUNTROWS ( Shifts ),
+    FILTER (
+        Shifts,
+        ( Shifts[Formatted Clock In Hour] <= SELECTEDVALUE ( 'HourTable'[Hour] ) )
+            && ( Shifts[Formatted Clock Out Hour] >= SELECTEDVALUE ( 'HourTable'[Hour] ) )
+    )
 )
-)
+
 ```
 
 -----
@@ -420,17 +421,19 @@ Displays selected year(s) or “All Years” if none.
 ```
 SelectedYear =
 VAR SelectedYearCount =
+    CALCULATE (
+        COUNTROWS ( VALUES ( 'Date'[Year] ) ),
+        ALLSELECTED ( 'Date'[Year] )
+    )
 VAR TotalYearCount =
-CALCULATE (
-    COUNTROWS ( VALUES ( 'Date'[Year] ) ),
-    ALLSELECTED ( 'Date'[Year] )
-)
+    CALCULATE ( COUNTROWS ( VALUES ( 'Date'[Year] ) ), ALL ( 'Date'[Year] ) )
 RETURN
-IF(
-NOT ISFILTERED('Date'[Year]) || SelectedYearCount = TotalYearCount,
-"All Years",
-CONCATENATEX(VALUES('Date'[Year]), 'Date'[Year], ", ", 'Date'[Year], ASC)
-)
+    IF (
+        NOT ISFILTERED ( 'Date'[Year] )
+            || SelectedYearCount = TotalYearCount,
+        "All Years",
+        CONCATENATEX ( VALUES ( 'Date'[Year] ), 'Date'[Year], ", ", 'Date'[Year], ASC )
+    )
 ```
 
 **EmployeeDay/Hours**
@@ -442,7 +445,7 @@ VAR SelectedDayOfWeek = SELECTEDVALUE('Date'[Day of Week])
 RETURN
 CALCULATE(
 SUM(Shifts[Elapsed Hours]),
-USERELATIONHIP(Shifts[Clock In Date], 'Date'[Date]),
+//USERELATIONHIP(Shifts[Clock In Date], 'Date'[Date]), No longer needed, relationship is active
 FORMAT(WEEKDAY(Shifts[Clock In Date], 2), "0") = FORMAT(SelectedDayOfWeek, "0")
 )
 ```
