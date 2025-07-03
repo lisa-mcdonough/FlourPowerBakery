@@ -137,19 +137,9 @@ CALCULATE(
         'Date'[Date] <= MAX('Date'[Date])
     ),
     'Date'[Season] = SELECTEDVALUE('Date'[Season])
-)//running total of sales within each season
-```
-
-**MOM Sept 2023 - Jan 2024**
-Manual date range, there was only 6 months of overlapping for YOY
-
-```
-MOM_Sept2023_Jan2024 =
-CALCULATE(
-    SUM('LineItems'[Item Total]),
-    'Date'[Period] = "Sept 2023 - Jan 2024"
 )
 ```
+
 
 **Oct 2023 - Sept 2024**
 Year-to-date simulation using `DATESBETWEEN`.
@@ -187,13 +177,9 @@ DIVIDE([TotalSales], [EmployeesOnShift])
 **EmployeeHours**
 
 ```
-EmployeeHours =
-CALCULATE(
-    SUM(Shifts[Elapsed Hours]),
-    FILTER(
-        RELATEDTABLE(LineItems),
-        LineItems[Item Total] > 0)
-)
+TotalEmployeeHours =
+SUM(Shifts[Elapsed Hours])
+    
 ```
 
 **EmployeeHoursWithDateFilter**
@@ -222,7 +208,7 @@ Shifts[Clock In Date] = SelectedDate
 ```
 
 **TotalEmployeeCount**
-Unique count of employees, excluding test entries.
+Unique count of employees, excluding chefs 
 
 ```
 TotalEmployeeCount =
@@ -236,7 +222,7 @@ NOT(Shifts[Employee Name] IN {"Alexjandro Jesus", "Samuel Poole", "Julian Anders
 Average hours worked per employee.
 
 ```
-AvgEmployeeHours = DIVIDE([EmployeeHours], [TotalEmployeeCount])
+AvgEmployeeHours = DIVIDE([TotalEmployeeHours], [TotalEmployeeCount])
 ```
 
 **ShiftsCount**
@@ -266,16 +252,6 @@ Hourly sales normalized by days selected.
 AvgHourlySalesbyDayofWeek = DIVIDE([TotalSalesByHour], [NumberDaysSelectedRange])
 ```
 
-**NumberDaysSelectedRange**
-Count of days in the selected date range.
-
-```
-NumberDaysSelectedRange =
-CALCULATE(
-COUNTROWS('Date'),
-FILTER('Date', 'Date'[Date] >= MIN('Date'[Date]) && 'Date'[Date] <= MAX('Date'[Date]))
-)
-```
 
 **CountSelectedDaysInDateRange**
 How many times a specific day occurs in the date range.
@@ -334,31 +310,7 @@ Label format: “MMM YYYY Week X”.
 MonthWeekLabelMeasure = FORMAT(MAX('Date'[Date]), "MMM YYYY") & "  Week " & MAX('Date'[MonthWeekLabel])
 ```
 
-**MonthWeekNumber**
-Calculates week number within the month.
 
-```
-MonthWeekNumber =
-VAR CurrentMonthStart = STARTOFMONTH('Date'[Date])
-VAR WeekNumberWithinMonth = WEEKNUM(MAX('Date'[Date]), 2) - WEEKNUM(CurrentMonthStart, 2) + 1
-RETURN WeekNumberWithinMonth
-```
-
-**Total Sales Matrix**
-Custom matrix logic for totals based on scope.
-
-```
-TotalSalesMatrix =
-VAR IsTotalRow = ISINSCOPE('Category'[CategoryName])
-VAR IsTotalColumn = ISINSCOPE('Date'[Season])
-RETURN SWITCH(
-TRUE(),
-IsTotalRow && IsTotalColumn, [TotalSales],
-NOT IsTotalRow && IsTotalColumn, [TotalSales],
-IsTotalRow && NOT IsTotalColumn, [TotalSales],
-BLANK()
-)
-```
 
 **Items\_Category15**
 Concatenated item names under category 15.
@@ -398,17 +350,6 @@ Gross profit as a percentage of total sales.
 
 ```
 Margin = DIVIDE([GrossProfit], [TotalSales])
-```
-
-**AvgItemMargin**
-Average gross margin per item.
-
-```
-AvgItemMargin =
-AVERAGEX(
-VALUES(SubCategory[Item]),
-DIVIDE([GrossProfit], [TotalSales])
-)
 ```
 
 -----
