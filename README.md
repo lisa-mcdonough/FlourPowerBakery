@@ -10,7 +10,7 @@ This interactive Power BI report is built for the **retail industry**, using syn
 - **Data Source**: Simulated multi-location point-of-sale data modeled with fact/dim tables
 - **Pages**:
   1. **Staffing Based on Sales** – Day of week sales vs. Employee hours
-  2. **Product Performance w/Drill through** – Item profitabiity and COGS modeling
+  2. **Product Performance w/Drill through** – In Depth look at underperforming products
   3. **Optimizing Business Hours** – Hourly revenue by hour and day of week
 
 ---
