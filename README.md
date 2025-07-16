@@ -36,7 +36,7 @@ Click on the image to watch a walk through video of the report on YouTube:
 )  
   Slice through product sales, staffing patterns, and hourly trends in real time. Web version has page navigation buttons.
 
-- 💾 [**Download .pbix file**](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/FlowerPowerBakery.pbix)  
+- 💾 [**Download .pbix file**](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/FlourPowerBakery.pbix)  
   Explore the report architecture, DAX, and layout firsthand.
 
 - 📈 [**Download Dataset (.xlsx)**](https://github.com/lisa-mcdonough/FlourPowerBakery/raw/main/FlourPowerBakery/AnonamizedBakeryMapped.xlsx)
