@@ -32,7 +32,7 @@ Click on the image to watch a walk through video of the report on YouTube:
 
 ### 🧁 *Flour Power – View & Download*
 
-- 🌐 [**View Interactive Report (Power BI Service)**](https://app.powerbi.com/view?r=eyJrIjoiZGVjMGFiZjgtM2UyNC00Nzc3LTljYWMtYTcyNmRkZWY0ZjdmIiwidCI6ImI4ODQ3Y2Q5LTA0OWMtNDE5My05MDk2LTk1OGI2MDM3MzIwZiIsImMiOjN9
+- 🌐 [**View Interactive Report (Power BI Service)**](https://app.powerbi.com/view?r=eyJrIjoiNDc3ZTA0NzctNDAwOC00ZjBiLTllMmQtN2VhMmRlNGMwYmY1IiwidCI6ImI4ODQ3Y2Q5LTA0OWMtNDE5My05MDk2LTk1OGI2MDM3MzIwZiIsImMiOjN9
 )  
   Slice through product sales, staffing patterns, and hourly trends in real time. Web version has page navigation buttons.
 
