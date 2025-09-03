@@ -1,4 +1,4 @@
-# 🧁 Flour Power Bakery Power BI Report
+# 🧁 Flour Power Bakery's Power BI Report
 
 This interactive Power BI report is built for the **retail industry**, using anonymized POS-style data to analyze sales, product performance, and customer trends for a fictional bakery chain, Flour Power.
 
