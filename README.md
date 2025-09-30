@@ -22,8 +22,8 @@ Click on the image to watch a walk through video of the report on YouTube:
 [![Staffing Based on Sales ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-%20StaffingBasedonSalesAnalysisFP.png)](https://youtu.be/NL-BHHzpXQk)  
 [📎 _Staffing optimization through daily sales pacing_]
 
-#[![Product Analysis ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-ProductAnalysisFP.png)](https://youtu.be/7vwDhfGsJGM)  
-#[📎 _Lost revenue and high-margin item analysis_]
+<!--[![Product Analysis ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-ProductAnalysisFP.png)](https://youtu.be/7vwDhfGsJGM)  
+#[📎 _Lost revenue and high-margin item analysis_]-->
 
 [![Optimizing Business Hours ➜](https://github.com/lisa-mcdonough/FlourPowerBakery/blob/main/FlourPowerBakery/Assets/PNG-OptimizeBusinessHoursAnalysisFP.png)](https://youtu.be/H-vI-EoFtyM)  
 [📎 _Aligning open hours with peak customer traffic_]          
